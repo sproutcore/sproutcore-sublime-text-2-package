@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[SC.ListView.extend({
+  // Content and selection.
+  contentBinding: SC.Binding.oneWay('${10:MyApp.myArrayController}.arrangedObjects'),
+  selectionBinding: '${10:MyApp.myArrayController}.selection',
+
+  // SC.CollectionRowDelegate
+  itemHeight: ${30:30}, // Each row is ${30:30}px high.
+  rowSpacing: ${40:0}, // Add ${40:0}px to each row offset for CSS borders.
+
+  // Example view.
+  exampleView: ${0:SC.ListItemView}
+})]]></content>
+    <tabTrigger>SCList</tabTrigger>
+    <scope>source.js</scope>
+    <description>SC.ListView.extend({…})</description>
+</snippet>

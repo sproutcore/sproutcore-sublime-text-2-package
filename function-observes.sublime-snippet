@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[function () {
+  var ${1:property} = this.get('${1:property}');
+
+  ${2:if (${1:property}) {
+    $0
+  }}
+}.observes('${1:property}'),]]></content>
+    <tabTrigger>function</tabTrigger>
+    <scope>source.js</scope>
+    <description>.observes():SC</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[SC.ButtonView.extend({
+  action: '${5:doAction}',
+  classNames: [${6}],
+  layout: { centerY: 0, height: ${10:30}, left: ${20:10}, width: ${30:80} },
+  localize: ${40:true},
+  target: ${45:MyApp}.statechart,
+  title: "${50}"
+}),$0]]></content>
+    <tabTrigger>SCButton</tabTrigger>
+    <scope>source.js</scope>
+    <description>SC.ButtonView.extend({…})</description>
+</snippet>

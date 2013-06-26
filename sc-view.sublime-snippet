@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[SC.View.extend({
+  classNames: [${5}],
+  childViews: ['${10:viewA}', '${20:viewB}'],
+  layout: { bottom: ${30:0}, left: ${40:0}, right: ${50:0}, top: ${60:0} },
+
+  // The ${10:viewA}.
+  ${10:viewA}: ${0:SC.View,}
+
+  // The ${20:viewB}.
+  ${20:viewB}: SC.View
+
+}),]]></content>
+    <tabTrigger>SCView</tabTrigger>
+    <scope>source.js</scope>
+    <description>SC.View.extend({…})</description>
+</snippet>
