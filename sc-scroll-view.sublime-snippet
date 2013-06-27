@@ -1,5 +1,6 @@
 <snippet>
     <content><![CDATA[SC.ScrollView.extend({
+
   layout: { bottom: ${30:0}, left: ${40:0}, right: ${50:0}, top: ${60:0} },
 
   contentView: ${0:SC.ListView}

@@ -1,5 +1,6 @@
 <snippet>
     <content><![CDATA[SC.ListView.extend({
+
   // Content and selection.
   contentBinding: SC.Binding.oneWay('${10:MyApp.myArrayController}.arrangedObjects'),
   selectionBinding: '${10:MyApp.myArrayController}.selection',
@@ -10,6 +11,7 @@
 
   // Example view.
   exampleView: ${0:SC.ListItemView}
+
 })]]></content>
     <tabTrigger>SCList</tabTrigger>
     <scope>source.js</scope>
