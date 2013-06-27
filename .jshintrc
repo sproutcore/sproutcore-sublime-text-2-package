@@ -1,0 +1,11 @@
+{
+  "browser": true,
+  "camelcase": true,
+  "indent": 2,
+  "maxerr": 100,
+  "predef": ["SC", "YES", "NO", "sc_require", "sc_super", "sc_static"],
+  "white": true,
+  "trailing": true,
+  "undef": true,
+  "unused": "vars"
+}
