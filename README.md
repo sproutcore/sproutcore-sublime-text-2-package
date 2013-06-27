@@ -16,8 +16,8 @@ and ensure that `jshint` is in your environment path.
 1. Install the SproutCore package using Package Control in Sublime Text 2
 
   1. `⇧⌘P` *or* `⇧⌃P` (Linux/Windows)
-  2. type `install p`, select `Package Control: Install Package`
-  3. type `sproutcore`, select `SproutCore`
+  2. select `Package Control: Install Package`
+  3. select `SproutCore`
 
 ## JSHint
 
