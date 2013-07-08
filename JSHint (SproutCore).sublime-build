@@ -1,7 +1,7 @@
 {
   "selector": "source.js",
 
-  "cmd": ["jshint", "$file", "--reporter", "$packages/SproutCore/reporter.js", "--config", "$packages/SproutCore/.jshintrc"],
+  "cmd": ["jshint", "$file", "--reporter", "$packages/SproutCore Snippets and JSHint Integration/reporter.js", "--config", "$packages/SproutCore Snippets and JSHint Integration/.jshintrc"],
 
   "file_regex": "file:(.+)\\]",
   "line_regex": "(\\d+),(\\d+)",
@@ -11,6 +11,6 @@
   },
 
   "windows": {
-    "cmd": ["jshint.cmd", "$file", "--reporter", "$packages\\SproutCore\\reporter.js", "--config", "$packages\\SproutCore\\.jshintrc"]
+    "cmd": ["jshint.cmd", "$file", "--reporter", "$packages\\SproutCore Snippets and JSHint Integration\\reporter.js", "--config", "$packages\\SproutCore Snippets and JSHint Integration\\.jshintrc"]
   }
 }

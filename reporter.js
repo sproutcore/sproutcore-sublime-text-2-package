@@ -1,6 +1,7 @@
 /*global console, module, process*/
 'use strict';
 
+// This code is extended from JSHint package: https://github.com/uipoet/sublime-jshint
 module.exports = {
 
   reporter: function (errors, results) {
@@ -50,7 +51,7 @@ module.exports = {
 
       if (errors) {
 
-        // Remove all errors that are also orphans or globalse (reversed because errors will shrink)
+        // Remove all errors that are also orphans or globals (reversed because errors will shrink)
         for (j = errors.length - 1; j >= 0; j--) {
           var error = errors[j].error;
 
