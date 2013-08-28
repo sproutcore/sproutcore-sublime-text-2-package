@@ -1,8 +1,6 @@
 {
   "selector": "source.js",
 
-  "cmd": ["jshint", "$file", "--reporter", "$packages/SproutCore Snippets and JSHint Integration/reporter.js", "--config", "$packages/SproutCore Snippets and JSHint Integration/.jshintrc"],
-
   "file_regex": "file:(.+)\\]",
   "line_regex": "(\\d+),(\\d+)",
 
@@ -10,7 +8,27 @@
     "path": "/usr/local/bin:/opt/local/bin"
   },
 
-  "windows": {
-    "cmd": ["jshint.cmd", "$file", "--reporter", "$packages\\SproutCore Snippets and JSHint Integration\\reporter.js", "--config", "$packages\\SproutCore Snippets and JSHint Integration\\.jshintrc"]
-  }
+  "variants": [{
+      "name": "custom",
+
+      "windows": {
+        "cmd": ["jshint.cmd", "$file", "--reporter", "$packages\\SproutCore Snippets and JSHint Integration\\reporter.js"]
+      },
+
+      "cmd": ["jshint", "$file", "--reporter", "$packages/SproutCore Snippets and JSHint Integration/reporter.js"]
+
+    },
+
+    {
+      "name": "default",
+
+      "windows": {
+        "cmd": ["jshint.cmd", "$file", "--reporter", "$packages\\SproutCore Snippets and JSHint Integration\\reporter.js", "--config", "$packages\\SproutCore Snippets and JSHint Integration\\.jshintrc"]
+      },
+
+      "cmd": ["jshint", "$file", "--reporter", "$packages/SproutCore Snippets and JSHint Integration/reporter.js", "--config", "$packages/SproutCore Snippets and JSHint Integration/.jshintrc"]
+
+    }
+
+  ]
 }

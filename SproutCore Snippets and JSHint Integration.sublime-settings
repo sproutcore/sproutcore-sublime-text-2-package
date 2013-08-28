@@ -1,0 +1,12 @@
+{
+	/*
+		Set to true to use the .jshintrc provided by the package which is preconfigured with some
+		sane defaults for SproutCore development.
+
+		Alternatively, set to false to enable jshint to automatically search for a jshintrc as
+		described in the jshintc docs: JSHint will look for this file in the current working
+		directory and, if not found, will move one level up the directory tree all the way up to
+		the filesystem root.
+	*/
+	"use_provided_jshintrc": true
+}
