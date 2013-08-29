@@ -1,13 +1,14 @@
 <snippet>
     <content><![CDATA[function () {
   var ${1:propertyA} = this.get('${1:propertyA}'),
-    ${2:propertyB} = this.get('${2:propertyB}'),
     ret;
 
-  ret = ${100:${1:propertyA} + ${2:propertyB}};$0
+  if (${1:propertyA}) {
+    ret = $0${1:propertyA};
+  }
 
   return ret;
-}.property('${1:propertyA}', '${2:propertyB}').cacheable(),]]></content>
+}.property('${1:propertyA}').cacheable(),]]></content>
     <tabTrigger>function</tabTrigger>
     <scope>source.js</scope>
     <description>.property().cacheable():SC</description>
