@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[SC.LabelView.extend({
   classNames: [${5}],
-  layout: { height: ${10:30}, left: ${20:10}, right: ${30:10}, top: ${40:100}  },
+  layout: { height: ${10:30}, left: ${20:10}, right: ${30:10}, top: ${40:100} },
   localize: ${50:true},
   ${60:valueBinding: SC.Binding.oneWay('${70:MyApp.myController.name}')}
 }),$0]]></content>
