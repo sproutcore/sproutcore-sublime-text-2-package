@@ -45,11 +45,17 @@ modify it very quickly without using the mouse.
 * `SCButtonView` - An SC.ButtonView template.
 * `SCLabelView` - An SC.LabelView template.
 * `SCListView` - An SC.ListView template.
+* `SCRecord` - An SC.Record template with several attributes and a `primaryKey`.
+* `SCState` - An SC.State template with enterState and exitState.
 * `SCScrollView` - An SC.ScrollView template.
+* `SCTextFieldView` - An SC.TextFieldView template.
 * `SCView` - An SC.View template.
+* `SCView (Class)` - An SC.View as a Class template with render and update.
 * `SCBinding` - A oneWay binding. 
-* `function` - A .observes function.
-* `function` - A .property function.
-* `function` - A .property.cacheable function.
+* `childViews` - Adds childViews property.
+* `childViewLayout` - Adds childViewLayout & childViewLayoutOptions properties.
 * `for` - A forward `for` loop using `.get('length')` & `.objectAt()`
 * `for` - A reverse `for` loop using `.get('length')` & `.objectAt()`
+* `function (observes)` - A .observes function.
+* `function (property)` - A .property function.
+* `function (cacheable)` - A .property.cacheable function.
