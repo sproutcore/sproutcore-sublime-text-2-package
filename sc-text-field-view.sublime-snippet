@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[SC.TextFieldView.extend({
+  classNames: [${5}],
+  hint: "${8:_TextFieldHint}",
+  layout: { top: ${10:10}, height: ${20:32}, left: ${30:10}, width: ${40:160} },
+  localize: ${50:true},
+  valueBinding: '${70:MyApp.myController.name}'
+}),
+$0]]></content>
+    <tabTrigger>SCText</tabTrigger>
+    <scope>source.js</scope>
+    <description>SC.TextFieldView.extend({…})</description>
+</snippet>

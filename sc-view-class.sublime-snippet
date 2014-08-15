@@ -1,0 +1,46 @@
+<snippet>
+    <content><![CDATA[SC.View.extend(
+/** @scope ${5:MyApp.MyView}.prototype */  {
+
+  // ---------------------------------------------------------------------------
+  // Properties
+  //
+
+  classNames: ['${10}'],
+
+  displayProperties: ['${15:isSelected}'],
+
+  ${15:isSelected}: false,
+
+  // ---------------------------------------------------------------------------
+  // Methods
+  //
+
+  // ---------------------------------------------------------------------------
+  // Render/Update
+  //
+
+  /** @private */
+  render: function (context) {
+    var ${15:isSelected} = this.get('${15:isSelected}');
+
+    // Set the 'sel' class if `${15:isSelected}` is true.
+    context.setClass({
+      'sel': ${15:isSelected}
+    });
+  },
+
+  /** @private */
+  update: function (jqElement) {
+    var ${15:isSelected} = this.get('${15:isSelected}');
+
+    // Update the 'sel' class.
+    jqElement.toggleClass('sel', ${15:isSelected});
+  }
+
+});
+]]></content>
+    <tabTrigger>SCView</tabTrigger>
+    <scope>source.js</scope>
+    <description>SC.View.extend({ … (Class)</description>
+</snippet>

@@ -1,0 +1,29 @@
+<snippet>
+    <content><![CDATA[SC.State.extend({
+
+  // ---------------------------------------------------------------------------
+  // SC.State
+  //
+
+  initialSubstate: '${8:aSubstate}',
+
+  enterState: function (context) {
+    ${10}
+  },
+
+  exitState: function (context) {
+    ${20}
+  },
+
+  // ---------------------------------------------------------------------------
+  // Substates
+  //
+
+  ${8}: ${40}
+
+})
+]]></content>
+    <tabTrigger>SCState</tabTrigger>
+    <scope>source.js</scope>
+    <description>SC.State.extend({…})</description>
+</snippet>

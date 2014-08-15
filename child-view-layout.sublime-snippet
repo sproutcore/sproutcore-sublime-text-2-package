@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[childViewLayout: SC.View.${1:VERTICAL_STACK},
+childViewLayoutOptions: { ${2:paddingBefore: 20} },
+$0]]></content>
+    <tabTrigger>childViewLayout</tabTrigger>
+    <scope>source.js</scope>
+    <description>childViewLayout:SC</description>
+</snippet>

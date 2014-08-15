@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[childViews: ['${1:viewA}'],
+
+  // The ${1:viewA}.
+  ${1:viewA}: ${0:SC.View,}
+
+]]></content>
+    <tabTrigger>childViews</tabTrigger>
+    <scope>source.js</scope>
+    <description>childViews:SC</description>
+</snippet>

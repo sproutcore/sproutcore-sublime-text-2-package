@@ -1,0 +1,33 @@
+<snippet>
+    <content><![CDATA[SC.Record.extend({
+
+  // ---------------------------------------------------------------------------
+  // Attributes
+  //
+
+  name: SC.Record.attr(String),
+
+  isVald: SC.Record.attr(Boolean),
+
+  value: SC.Record.attr(Number),
+
+  updatedAt: SC.Record.attr(SC.DateTime, {
+    format: '%Y-%m-%d %H:%M:%S'
+  }),
+
+  children: SC.Record.toMany('MyApp.Child'),
+
+  parent: SC.Record.toOne('MyApp.Parent'),
+
+  // ---------------------------------------------------------------------------
+  // Properties
+  //
+
+  primaryKey: '_id'
+
+});
+]]></content>
+    <tabTrigger>SCRecord</tabTrigger>
+    <scope>source.js</scope>
+    <description>SC.Record.extend({…})</description>
+</snippet>
