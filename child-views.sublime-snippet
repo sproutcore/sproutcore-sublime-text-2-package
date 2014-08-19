@@ -1,8 +1,10 @@
 <snippet>
     <content><![CDATA[childViews: ['${1:viewA}'],
 
-  // The ${1:viewA}.
-  ${1:viewA}: ${0:SC.View,}
+// The ${1:viewA}.
+${1:viewA}: ${2:SC.View,}
+
+$0
 
 ]]></content>
     <tabTrigger>childViews</tabTrigger>
