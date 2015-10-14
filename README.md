@@ -1,7 +1,7 @@
-sublime-text-2-package
+sublime-text-package
 ======================
 
-A SproutCore package for Sublime Text 2.
+A SproutCore package for Sublime Text 2 and 3.
 
 This package includes several useful SproutCore specific snippets and 
 integration with [JSHint](http://www.jshint.com/).
@@ -13,7 +13,7 @@ and ensure that `jshint` is in your environment path.
 
     $ npm install -g jshint
 
-1. Install the SproutCore package using Package Control in Sublime Text 2
+1. Install the SproutCore package using Package Control in Sublime Text
 
   1. `⇧⌘P` *or* `⇧⌃P` (Linux/Windows)
   2. select `Package Control: Install Package`
